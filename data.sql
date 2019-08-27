@@ -1,3 +1,15 @@
 insert into User values(101,'Shambhavi','Useless');
-insert into user values(102,'Diksha','Ps');
+insert into user values(102,'Suvrat','Ps');
 insert into user values(103,'Diksha','android');
+insert into user values(103,'Shubham','ML');
+insert into user values(103,'Janhvi','android');
+insert into user values(103,'Shubham Arya','security');
+insert into user values(103,'Samarth','security');
+insert into user values(103,'Ayush','android');
+insert into user values(103,'Shriya','Ps');
+insert into user values(103,'Sumer','Big data');
+insert into user values(103,'Divya','Javascript');
+insert into user values(103,'Avani','android');
+insert into user values(103,'Nakul','Data analysis');
+insert into user values(103,'Arshiya','ML');
+insert into user values(103,'Abhishek','android');

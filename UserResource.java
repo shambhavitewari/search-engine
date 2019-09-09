@@ -29,7 +29,7 @@ public class UserResource {
         if(cac.hash_map.containsKey(tech))
         {
             System.out.println("through hashmap");
-            System.out.println("no. of elements n the hashmap ="+cac.hash_map.size());
+            System.out.println("no. of elements in the hashmap ="+cac.hash_map.size());
           return cac.mapGet(tech);
         }
 

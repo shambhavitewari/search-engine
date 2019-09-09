@@ -8,8 +8,8 @@ public class User {
 
     @Id
     private int userid;
-    private String Fname;
-    private String skill;
+    private String fname;
+    private String tech;
 
     public int getUserid() {
         return userid;
@@ -20,27 +20,27 @@ public class User {
     }
 
     public String getFname() {
-        return Fname;
+        return fname;
     }
 
     public void setFname(String fname) {
-        this.Fname = fname;
+        this.fname = fname;
     }
 
     public String getSkill() {
-        return skill;
+        return tech;
     }
 
     public void setSkill(String l) {
-        this.skill = skill;
+        this.tech = tech;
     }
 
     @Override
     public String toString() {
         return "user{" +
                 "userid=" + userid +
-                ", fname='" + Fname + '\'' +
-                ", skill='" + skill + '\'' +
+                ", fname='" + fname + '\'' +
+                ", skill='" + tech + '\'' +
                 '}';
     }
 
